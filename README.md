@@ -37,7 +37,7 @@ A modern web application for streaming movies and TV shows, built with PHP and T
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/easy-movie.git
+git clone https://github.com/Bucky-26/easy-movie
 ```
 
 2. Set up your web server (XAMPP/WAMP):
@@ -138,6 +138,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
+Facebook - [@Adonis San Juan](https://www.facebook.com/Buckyy26)
 
-Project Link: [https://github.com/yourusername/easy-movie](https://github.com/yourusername/easy-movie)
+Project Link: [https://github.com/yourusername/easy-movie](https://github.com/Bucky-26/easy-movie)
