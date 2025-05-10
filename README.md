@@ -140,4 +140,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Facebook - [@Adonis San Juan](https://www.facebook.com/Buckyy26)
 
-Project Link: [https://github.com/yourusername/easy-movie](https://github.com/Bucky-26/easy-movie)
+Project Link: [https://github.com/Bucky-26/easy-movie](https://github.com/Bucky-26/easy-movie)
