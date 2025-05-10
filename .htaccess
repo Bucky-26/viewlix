@@ -1,0 +1,20 @@
+RewriteEngine On
+RewriteBase /
+
+# API Endpoints
+RewriteRule ^api/movie/([0-9]+)/?$ api/movie.php?id=$1 [QSA,L]
+RewriteRule ^api/tv/([0-9]+)/?$ api/tv.php?id=$1 [QSA,L]
+RewriteRule ^api/similar/([0-9]+)/?$ api/similar.php?id=$1 [QSA,L]
+RewriteRule ^api/popular/([a-z]+)/?$ api/popular.php?type=$1 [QSA,L]
+RewriteRule ^api/search/?$ api/search.php [QSA,L]
+RewriteRule ^api/credits/([0-9]+)/?$ api/credits.php?id=$1 [QSA,L]
+
+# Prevent direct access to PHP files in api directory
+# RewriteCond %{REQUEST_URI} ^/api/.*\.php$
+# RewriteCond %{REQUEST_METHOD} !POST
+# RewriteRule ^ - [F]
+
+# Enable CORS
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+Header set Access-Control-Allow-Headers "Content-Type" 
